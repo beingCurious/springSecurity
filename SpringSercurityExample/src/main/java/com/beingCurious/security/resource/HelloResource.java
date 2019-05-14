@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloResource {
 
 	// Initiate the DB first "Manually in this case". To get use User related API
+	// Tutorial Link :- https://www.youtube.com/watch?v=egXtoL5Kg08&t=764s
 	
     @GetMapping("/all")
     public String hello() {
